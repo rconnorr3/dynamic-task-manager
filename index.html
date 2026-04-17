@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Task Manager</title>
+</head>
+<body>
+  <h1>Dynamic Task Manager</h1>
+
+  <!-- Task input -->
+  <input type="text" id="taskInput" placeholder="Type a task here">
+
+  <!-- Buttons -->
+  <button id="addBtn">Add Task</button>
+  <button id="deleteBtn">Delete Specific Task</button>
+  <button id="clearBtn">Clear All</button>
+
+  <!-- Where we will display the list -->
+  <h2>Current Tasks:</h2>
+  <ul id="taskList"></ul>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+<!--Why this HTML?
+1)id="taskInput" lets JavaScript grab what the user typed.
+2)Buttons with IDs (addBtn, deleteBtn, clearBtn) are the “hooks” for event listeners.
+3)<ul id="taskList"> gives us a visual list instead of only console logs.
+-->
+    
