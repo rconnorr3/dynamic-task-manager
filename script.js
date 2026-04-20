@@ -4,7 +4,7 @@
 let myTasks = []; // Your "database" in memory
 
 
-// 2. HOOKS (HTML elements)
+// 2. HOOKS
 
 const inputField = document.getElementById("taskInput");
 const addButton = document.getElementById("addBtn");
